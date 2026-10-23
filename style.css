@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: box-border;
+    box-sizing: border-box;
 }
 
 :root{
@@ -162,7 +162,7 @@ header p{
     background: #0b112066;
 }
 
-.loader code{
+.loaderr code{
     padding: 1px 6px;
     border-radius: 5px;
     background: #ffffff12;

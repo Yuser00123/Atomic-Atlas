@@ -13,7 +13,7 @@ const COLORS = {
     "Actinide" : "#ff9ff3"
 };
 
-const pos = n => {
+const pos = n => 
     n === 1 ? [1, 1] : n === 2 ? [1, 18] :
     n <= 10 ? [2, n < 5 ? n - 2 : n + 8] :
     n <= 18 ? [3, n < 13 ? n - 10 : n] :
@@ -42,7 +42,7 @@ const pos = n => {
                 cell.style.cssText = `grid-area:${row}/${col};--c:${COLORS[d.category]};--i:${d.number - 1}`;
                 cell.title = d.name;
                 cell.innerHTML = `<span class="num">${d.number}</span><b>${d.symbol}</b><span class="nm">${d.name}</span>`;
-                cell.onClick = () => openCard(d);
+                cell.onclick = () => openCard(d);
                 $("table").append(cell);
             });
 
@@ -71,8 +71,8 @@ const pos = n => {
             dlg.showModal();
         }
 
-        $("close").onclick = () => dlg.closest();
+        $("close").onclick = () => dlg.close();
         dlg.onclick = e => {
             if (e.target === dlg) dlg.closest();
         };
-}
+
