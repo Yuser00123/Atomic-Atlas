@@ -4,5 +4,45 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Atomic Atlas</title>
+        <meta name="description" content="A modern interactive periodic table.">
+        <link rel="stylesheet" href="style.css">
     </head>
+
+    <body>
+        <header>
+            <h1>Atomic <span>Atlas</span></h1>
+            <p>Click any element to reveal it's info.</p>
+        </header>
+        <main class="wrap">
+            <div class="table" id="table"></div>
+        </main>
+        <p class="swipe">Swipe the table sideways to see all the 18 groups</p>
+
+        <div class="legend" id="legend"></div>
+
+        <dialog id="dlg" aria-labelledby="mName">
+            <div class="card">
+                <button class="x" id="close" aria-label="Close">✕</button>
+                <div class="mhead">
+                    <div class="title"><span id="mNum"><b id="mSym"></b></span></div>
+                    <div>
+                        <h2 id="mName"></h2>
+                        <span class="chip" id="mCat"></span>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div><small>Atomic mass</small><b id="sMass"></b></div>
+                    <div><small>Period</small><b id="sPeriod"></b></div>
+                    <div><small>Group</small><b id="sGroup"></b></div>
+                    <div><small>Block</small><b id="sBlock"></b></div>
+                </div>
+                <div class="factbox">
+                    <small>Did you know?</small>
+                    <p id="mFact"></p>
+                </div>
+            </div>
+        </dialog>
+        <script src="script.js"></script>
+        <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4ee922b9c14a855',t:'MTc5MjczNTc0NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+    </body>
 </html>
