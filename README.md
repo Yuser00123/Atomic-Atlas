@@ -1,6 +1,6 @@
 # Atomic Atlas
 
-A modern interactive periodic table. Built with plain HTML, CSS and JavaScript. Click on any element to see it's basic information like it's atomic number, mass number, symbol, period, group, block and an interesting fun fact.
+This is a modern and interactive periodic table. It is made using only plain HTML, CSS, and JavaScript. No extra frameworks or libraries are used. The design is clean, simple, and easy to use on any device. You can click on any element in the table to learn more about it. When you click, it will show you all the basic details of that element. You can see its name, symbol, atomic number, and mass number. It will also show you which period it belongs to, which group it belongs to, and which block it comes from. Along with the basic information, it also shows you one interesting and fun fact about that element. This makes learning chemistry more fun and easy to remember. This project is perfect for students who want to learn the periodic table in a simple and interactive way, instead of just reading from a book.
 
 
 ![screenshot](screenshots/screenshot.png)
