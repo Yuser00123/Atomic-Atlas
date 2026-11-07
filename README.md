@@ -1,10 +1,11 @@
 # Atomic Atlas
 
-A modern interactive periodic table. Click any element to see its symbol, atomic mass, period, group, block and a fun science fact. Built with plain HTML, CSS and JavaScript.
+A modern interactive periodic table. Built with plain HTML, CSS and JavaScript. Click on any element to see it's basic information like it's atomic number, mass number, symbol, period, group, block and an interesting fun fact.
+
 
 ![screenshot](screenshots/screenshot.png)
 
-## Try it
+## Try it here
 
 https://atomic-atlas-two.vercel.app/
 
