@@ -35,7 +35,7 @@ You need a small local server because the page loads `elements.json` with `fetch
 - HTML
 - CSS (CSS Grid and flexbox, no frameworks)
 - JavaScript (no libraries)
-- `elements.json` for the element data
+- `elements.json` file for the element data
 
 ## Screenshots
 
